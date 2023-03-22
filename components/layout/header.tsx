@@ -44,7 +44,7 @@ const Header: React.FC = () => {
             <label className={cn("text-sm", "underline decoration-dashed")}>
               stranger
             </label> */}
-            <GithubStar />
+            <GithubStar star={true} />
             <a
               href="https://lohxt.space"
               target="_blank"
