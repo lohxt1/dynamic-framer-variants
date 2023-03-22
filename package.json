@@ -1,5 +1,5 @@
 {
-  "name": "next-starter-bare",
+  "name": "grids",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -16,8 +16,6 @@
   },
   "dependencies": {
     "@next/font": "^13.1.4",
-    "@react-three/drei": "^9.57.0",
-    "@react-three/fiber": "^8.11.7",
     "clsx": "^1.2.1",
     "fathom-client": "^3.5.0",
     "framer-motion": "^10.6.1",
@@ -27,8 +25,7 @@
     "react-device-detect": "^2.2.3",
     "react-dom": "18.2.0",
     "swr": "latest",
-    "tailwind-merge": "^1.8.1",
-    "three": "^0.150.1"
+    "tailwind-merge": "^1.8.1"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",

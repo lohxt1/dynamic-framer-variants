@@ -1,15 +1,18 @@
 import { NextPage } from "next";
-import Scene from "@/containers/three/scene";
+import Memories from "@/containers/ui/memories";
+import Text from "@/containers/ui/text";
+import { motion } from "framer-motion";
 import { cn } from "@/utils/tailwind";
 
 const Home: NextPage = () => {
   return (
     <div
       className={cn(
-        "flex h-[100%] w-screen items-center justify-center align-middle",
+        "flex w-screen flex-col items-center justify-center align-middle",
       )}
     >
-      <Scene />
+      <Memories />
+      <Text />
     </div>
   );
 };
