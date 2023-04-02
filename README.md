@@ -33,8 +33,8 @@ To run the code locally, open _Terminal_ in your `projects` folder and take the 
 
 ```bash
 # STEP 1: Get sources from GitHub
-$ git clone https://github.com/lohxt1/gridsII.git
-$ cd gridsII
+$ git clone https://github.com/lohxt1/dynamic-framer-variants.git
+$ cd dynamic-framer-variants
 
 # STEP 2: Install the requirements
 $ npm install
