@@ -4,9 +4,7 @@
 <img align="center" src="https://lohxt1.github.io/_assets/grids2.png" alt="grids II"/>
 <br />
 <br />
-<video autoplay loop>
-  <source src="https://lohxt1.github.io/_assets/grids21.mov">
-</video>
+<img align="center" src="https://lohxt1.github.io/_assets/grids21.gif" alt="grids II"/>
 <h1>
 dynamic-framer-variants
 </h1>
