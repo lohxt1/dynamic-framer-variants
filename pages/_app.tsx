@@ -17,20 +17,20 @@ const App = ({ Component, pageProps }: AppProps) => {
   useEffect(() => {
     toggleMounted(true);
 
-    // Fathom.load("ID", {
-    //   includedDomains: ["carousel.lohxt.space"],
-    // });
+    Fathom.load("HWHFETKQ", {
+      includedDomains: ["dynamicvariants.lohxt.space"],
+    });
 
-    // function onRouteChangeComplete() {
-    //   Fathom.trackPageview();
-    // }
-    // // Record a pageview when route changes
-    // router.events.on("routeChangeComplete", onRouteChangeComplete);
+    function onRouteChangeComplete() {
+      Fathom.trackPageview();
+    }
+    // Record a pageview when route changes
+    router.events.on("routeChangeComplete", onRouteChangeComplete);
 
-    // // Unassign event listener
-    // return () => {
-    //   router.events.off("routeChangeComplete", onRouteChangeComplete);
-    // };
+    // Unassign event listener
+    return () => {
+      router.events.off("routeChangeComplete", onRouteChangeComplete);
+    };
   }, []);
 
   return (
